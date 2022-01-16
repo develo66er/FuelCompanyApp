@@ -1,0 +1,142 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+
+}
+.company-delete{
+    background-color: #0c5460;
+    padding: 20px;
+    margin: 20px;
+    width: 60%;
+}
+.menu{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background-color: #0c5460;
+    margin-bottom: 20px;
+
+}
+
+button{
+    margin:5px;
+}
+ul{
+    padding: 0px;
+    margin:0px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    border: grey solid 1px;
+    margin-bottom: 5px;
+    margin-top:5px;
+    text-align: center;
+}
+.list{
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+select, input {
+    list-style-type: none;
+    padding: 5px 10px;
+    border: grey solid 1px;
+    margin: 5px 0 5px 0;
+    width: 250px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+a:hover,a:visited {
+    background-color: #adb5bd;
+color: white;
+}
+
+a:active {
+    color: white;
+    background-color: red;
+}
+nav{
+    margin-top:25px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+nav a{
+    padding: 10px;
+}
+.dispensers{
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #d6d8d9;
+    color: #0c5460;
+    justify-content:center;
+}
+.dispenser-items  a, .dispenser-items  a:visited {
+    margin: 20px;
+    background-color: #0c5460;
+    display: inline;
+   width: 30%;
+    
+}
+.dispenser-items  a:hover {
+   
+    background-color: #adb5bd;
+    color: #062c33;
+       
+}
+.type{
+    width: 60%;
+background-color: #adb5bd;
+margin: 20px;
+}
+.type span{
+    font-weight: bold;
+
+}
+input,select{
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    padding: 5px;
+}
+.name{
+    background-color: #adb5bd;
+    color: white;
+}
+.update-form{
+    width: 30%;
+    justify-content:center;
+}
+
+.info{
+    background-color: #10707f;
+    color:white;
+    line-height: 320%;
+}
+.info a,.info a:visited{
+    background-color: #0c5460;
+    
+}
+.info a:hover{
+    background-color: #adb5bd;
+    
+}
+.company-address{
+    background-color: #0c5460;
+    color: white;
+    text-wrap: none;
+    font-weight: bold;
+}
